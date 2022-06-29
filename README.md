@@ -4,6 +4,6 @@ crawler and analyzer informations from internet
 
 # references
 
-[docs/elements-of-python-style.md](https://github.com/Locchuong96/elements-of-python-style)
+[1][docs/elements-of-python-style.md](https://github.com/Locchuong96/elements-of-python-style)
 
-[docs/codestyle.md](https://github.com/updog/codestyle/blob/master/README.md)
+[2][docs/codestyle.md](https://github.com/updog/codestyle/blob/master/README.md)
