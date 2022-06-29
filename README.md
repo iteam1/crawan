@@ -8,4 +8,4 @@ crawler and analyzer informations from internet
 
 [1] [docs/elements-of-python-style.md](https://github.com/amontalenti/elements-of-python-style)
 
-[2] [docs/codestyle.md](https://github.com/updog/codestyle/blob/master/README.md)
+[2] [docs/codestyle.md](https://github.com/updog/codestyle)
