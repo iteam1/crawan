@@ -1,5 +1,4 @@
-<img src="https://img.shields.io/badge/license-MIT-green" /> 
-<img src="https://img.shields.io/badge/version-v0.1-lightgrey" />
+<img src="https://img.shields.io/badge/license-MIT-green" /><img src="https://img.shields.io/badge/version-v0.1-lightgrey" />
 
 <p align="center">
 <a href="https://fontmeme.com/graffiti-creator/"><img src="https://fontmeme.com/permalink/220718/cf83fc275ade5340b6aa24c10b4d879f.png" alt="graffiti-creator" border="0"></a>
