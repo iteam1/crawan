@@ -16,9 +16,9 @@ Do you ever have these questions?
 
 *What skills i need to get for apply data scientist ?*
 
-*What things related to 'UI/UX'?*
+*Which things related to 'UI/UX'?*
 
-*What is the hot job on job market right now? How much do i desired ?*
+*How much do i desired ?*
   
 crawan will give you these answer by crawl data from many sources and analyze them.
 
