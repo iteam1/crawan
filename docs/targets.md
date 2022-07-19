@@ -22,4 +22,4 @@ there are a lot of level of user (also developer or coder etc.). let classify th
 new web-browser every year, even the project's packages and dependencies release new verion every year, so building `crawan` must be orientated from the begining for these changes.
 
 #### easy to initialize
-create a main theme branch, create some branch base on that but customize the structure follow your implementation until you find the best option
+create a main theme branch, create some branch base on that but customize the structure follow your implementation until you find the best option. it may be time-wasting but give you some quick demo
