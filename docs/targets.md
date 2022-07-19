@@ -5,8 +5,8 @@ The table below give you full description about this project. Click on target's 
 |No|Target|Brief|
 |---|---|---|
 |01|[user's experiences](#user's-experiences)|let the user can easily do some with the source code, and gain something special|
-|02|[os system](#2/os-system)|`crawan` can be run on varitety of os-system|
-|03|[new](#3/new)|`crawan` have to catch up and be able to work in the future|
+|02|[os system](#os-system)|`crawan` can be run on varitety of os-system|
+|03|[new](#new)|`crawan` have to catch up and be able to work in the future|
 
 #### user 's experiences
 there are a lot of level of user (also developer or coder etc.). let classify them into 3 kinds:
