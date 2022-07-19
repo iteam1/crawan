@@ -18,4 +18,4 @@ there are a lot of level of user (also developer or coder etc.). let classify th
 'linux','windows','mac' are 3 popular os system in the world, so building`crawan` must be orientated from the begining for these changes.
 
 #### new
-new web-browser every year, even the project's packages and dependencies release new verion every year, so building`crawan` must be orientated from the begining for these changes.
+new web-browser every year, even the project's packages and dependencies release new verion every year, so building `crawan` must be orientated from the begining for these changes.
