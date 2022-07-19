@@ -4,18 +4,18 @@ The table below give you full description about this project. Click on target's 
 
 |No|Target|Brief|
 |---|---|---|
-|01|[user's experiences](#1/user's-experiences)|let the user can easily do some with the source code, and gain something special|
+|01|[user's experiences](#user's-experiences)|let the user can easily do some with the source code, and gain something special|
 |02|[os system](#2/os-system)|`crawan` can be run on varitety of os-system|
 |03|[new](#3/new)|`crawan` have to catch up and be able to work in the future|
 
-#### 1/user 's experiences
+#### user 's experiences
 there are a lot of level of user (also developer or coder etc.). let classify them into 3 kinds:
 - **beginner:** `crawan` can give them gain some by just few command as `git clone`, `bash`.
 - **advancer:** they can modify source code follow their own desires, reuse some module,etc.
 - **professional:** they can contribute their ideas, make it stronger and bigger.
 
-#### 2/os-system
+#### os-system
 'linux','windows','mac' are 3 popular os system in the world, so building`crawan` must be orientated from the begining for these changes.
 
-#### 3/new
+#### new
 new web-browser every year, even the project's packages and dependencies release new verion every year, so building`crawan` must be orientated from the begining for these changes.
