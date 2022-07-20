@@ -8,7 +8,7 @@ The table below give you full description about this project. Click on target's 
 |02|[os system](#os-system)|`crawan` can be run on varitety of os-system|
 |03|[new](#new)|`crawan` have to catch up and be able to work in the future|
 |04|[easy to initialize](#easy-to-initialize)|the best structure is now not exist, let make a strategy to release some quickly and easily|
-|05|[adaptation](#apdaptation)|duel to the GUI changing, `crawan` must be structure to adapt this|
+|05|[adaptation](#adaptation)|duel to the GUI changing, `crawan` must be structure to adapt this|
 
 #### user 's experiences
 there are a lot of level of user (also developer or coder etc.). let classify them into 3 kinds:
