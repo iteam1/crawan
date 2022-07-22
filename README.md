@@ -38,7 +38,7 @@ crawan will give you these answer by crawl data from many sources and analyze th
 
 ### libraries
 
-Each time you install new lib, please note.
+Each time you install new lib, please note.there are 2 os-system using for this repo `linux-ubuntu` and `windows`
 
     requests
     requests-html
@@ -49,3 +49,15 @@ Each time you install new lib, please note.
     prettytable
     tqdm
     time
+
+**windows**
+- create virtual environment: `virtualenv env`
+- activate virtual environment: `cd env/Script` + `activate`
+- install libraries follow the requirements: `pip install -r windows-requirements.txt`
+- deactivate: `deactivate`
+
+**ubuntu**
+- create virtual environment: `virtualenv env`
+- activate virtual environment: `source env/bin/activate`
+- install libraries follow the requirements: `pip install -r ubuntu-requirements.txt`
+- deactivate: `deactivate` 
