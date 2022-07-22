@@ -1,0 +1,4 @@
+requests
+requests-html
+beautifulsoup
+selenium
