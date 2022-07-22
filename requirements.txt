@@ -6,3 +6,4 @@ lxml
 html5lib
 prettytable
 tqdm
+time
