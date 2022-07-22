@@ -1,8 +1,8 @@
-### project's target
+### project's goals
 
-The table below give you full description about this project. Click on target's name for going to detail.
+The table below give you full description about this project. Click on goal's name for going to detail.
 
-|No|Target|Brief|
+|No|Goal|Brief|
 |---|---|---|
 |01|[user's experiences](#user's-experiences)|let the user can easily do some with the source code, and gain something special|
 |02|[os system](#os-system)|`crawan` can be run on varitety of os-system|
