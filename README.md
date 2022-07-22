@@ -35,3 +35,17 @@ crawan will give you these answer by crawl data from many sources and analyze th
 |01|[Graffiti Font](https://fontmeme.com/graffiti-creator/)|auto generate graffiti font|
 |02|[diagrameditor](https://www.diagrameditor.com/)|drawing UML diagram|
 |03|[codebeautify](https://codebeautify.org/htmlviewer)|prettify html|
+
+### libraries
+
+Each time you install new lib, please note.
+
+    requests
+    requests-html
+    beautifulsoup4
+    selenium
+    lxml
+    html5lib
+    prettytable
+    tqdm
+    time
