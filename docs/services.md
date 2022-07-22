@@ -1,5 +1,5 @@
 ### services
-|No|Service|Descript|
+|No|Service|Description|
 |---|---|---|
 |01|Automated interaction|---|
 |02|Export information to excel or csv|---|
