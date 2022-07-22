@@ -1,7 +1,7 @@
 ### features
 descript project's features
 
-|No|Service|Description|Version||Date|
+|No|Service|Description|Version|Date|
 |---|---|---|---|---|
 |01|Automated interaction|---|---|---|
 |02|Extracted and export the informations to excel or csv|---|---|---|
