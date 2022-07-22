@@ -12,3 +12,6 @@ env
 *.csv # csv
 *.xlsx # excel
 
+#zipfile
+*.zip
+
