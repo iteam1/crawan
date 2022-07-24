@@ -8,7 +8,12 @@ __pycache__
 # virtual environment
 env
 
-# data
-*.csv # csv
-*.xlsx # excel
+# data csv and excel
+*.csv
+*.xlsx
+
+# compress files
+*.zip
+*.tar
+*.rar
 

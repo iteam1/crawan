@@ -1,0 +1,3 @@
+---------ChromeDriver 97.0.4692.71 (2022-01-05)---------
+Supports Chrome version 97
+Resolved issue 3878: GetElementClickableLocation and GetElementRegion and ParseFromValue do not handle fractional x/y co-ordinates correctly [Pri-]

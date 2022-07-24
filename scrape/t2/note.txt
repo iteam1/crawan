@@ -1,0 +1,1 @@
+upgrade: use argparse to choice print out result by prettytable or export each page into excel file

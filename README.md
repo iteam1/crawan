@@ -35,3 +35,29 @@ crawan will give you these answer by crawl data from many sources and analyze th
 |01|[Graffiti Font](https://fontmeme.com/graffiti-creator/)|auto generate graffiti font|
 |02|[diagrameditor](https://www.diagrameditor.com/)|drawing UML diagram|
 |03|[codebeautify](https://codebeautify.org/htmlviewer)|prettify html|
+
+### libraries
+
+Each time you install new lib, please note.there are 2 os-system using for this repo `linux-ubuntu` and `windows`
+
+    requests
+    requests-html
+    beautifulsoup4
+    selenium
+    lxml
+    html5lib
+    prettytable
+    tqdm
+    time
+
+**windows**
+- create virtual environment: `virtualenv env`
+- activate virtual environment: `cd env/Script` + `activate`
+- install libraries follow the requirements: `pip install -r windows-requirements.txt`
+- deactivate: `deactivate`
+
+**ubuntu**
+- create virtual environment: `virtualenv env`
+- activate virtual environment: `source env/bin/activate`
+- install libraries follow the requirements: `pip install -r ubuntu-requirements.txt`
+- deactivate: `deactivate` 

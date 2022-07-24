@@ -1,9 +1,0 @@
-requests
-requests-html
-beautifulsoup4
-selenium
-lxml
-html5lib
-prettytable
-tqdm
-time
