@@ -49,6 +49,7 @@ Each time you install new lib, please note.there are 2 os-system using for this 
     prettytable
     tqdm
     time
+    argparse
 
 **windows**
 - create virtual environment: `virtualenv env`
