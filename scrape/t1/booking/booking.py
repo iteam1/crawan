@@ -15,8 +15,8 @@ inherited from webdriver.Chrome
 my_os = sys.platform
 if 'linux' in my_os:
     driver_path = "./web-driver/chromedriver_linux64/chromedriver"
-elif 'window' in my_os:
-    driver_path = "./web-driver/chromedriver_win32/chromedriver.exe"
+elif 'win' in my_os:
+    driver_path = "./web-driver/chromedriver_win32"
 else:
    print("Unknown current os-system,exiting...")
    exit()
