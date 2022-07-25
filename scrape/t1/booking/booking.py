@@ -29,7 +29,7 @@ else:
 
 class Booking(webdriver.Chrome):   
     
-    def __init__(self,driver_path=driver_path,teardown = False,wait_time = 10):
+    def __init__(self,driver_path=driver_path,teardown=False,wait_time=10):
         # self.wait_time = wait_time # the value for implicitly wait
         self.teardown = teardown # bit option to quit the driver after executed 
         self.driver_path = driver_path 

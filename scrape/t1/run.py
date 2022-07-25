@@ -1,5 +1,10 @@
 import time 
 from booking.booking import Booking
+from datetime import datetime
+
+# check date
+today = str(datetime.now())
+today = today.split()[0]
 
 # inst = Booking()
 # inst.landing_page()
@@ -15,8 +20,8 @@ with Booking(teardown = True) as bot:
     
     bot.select_place_to_go(place_to_go=input("Where do you want to go? "))
     
-    bot.select_dates(checkin_date = input("Checkin date (ex:2022-07-20)? "),
-                     checkout_date = input("Checkout date (ex:2022-07-21)? "))
+    bot.select_dates(checkin_date = (input("Checkin date (format:YYYY-MM-DD)?") or today),
+                     checkout_date = (input("Checkout date (foramt:YYYY-MM-DD)? ") or today))
     
     bot.select_adults(count = int(input("How many people? ")))
     
