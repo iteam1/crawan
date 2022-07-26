@@ -9,4 +9,4 @@
 |07|[t7](scrape/t7)|scrape jobs on [careerlink](https://www.careerlink.vn/)|beautifulsoup|locchuong|
 |08|[t8](scrape/t8)|scrape jobs on [indeed](https://vn.indeed.com/)|beautifulsoup|locchuong|
 |09|[t9](scrape/t9)|scrape jobs on [itjobs](https://www.itjobs.com.vn/)|selenium|locchuong|
-|10|[t10](scrape/t10)|scrape jobs on [itjobs](https://topdev.vn/)|selenium|locchuong|
+|10|[t10](scrape/t10)|scrape jobs on [topdev](https://topdev.vn/)|selenium|locchuong|
