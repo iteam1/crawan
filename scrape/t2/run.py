@@ -1,7 +1,16 @@
-from bs4 import BeautifulSoup
 import requests
 import time
 import csv
+import argparse
+from bs4 import BeautifulSoup
+from prettytable import PrettyTable
+
+# init argparse
+parser = argparse.ArgumentParser(description = "program's argument")
+# add argument
+parser.add_argument('-o','--out',action = 'store_true',help = 'option to export or print out')
+# create argument
+args = parser.parse_args()
 
 # give response from target page
 keyword = input('What is your keyword? ')
@@ -82,21 +91,30 @@ def find_jobs(soup):
     return collections
         
 if __name__ == "__main__":
+    # loop over page to page
     for i in range(1,1+pages):
         # url
         url = f'https://www.timesjobs.com/candidate/job-search.html?from=submit&actualTxtKeywords={keyword}&searchBy=0&rdoOperator=OR&searchType=personalizedSearch&luceneResultSize=25&postWeek=60&txtKeywords={keyword}&pDate=I&sequence={i}&startPage={i}'
+
         # print(url)
         html_text = requests.get(url).text
         soup = BeautifulSoup(html_text,'lxml')
-        # print(soup)
-        # create csv file
-        csv_file = open(f'./sub15/s{i}.csv','w')
-        csv_writer = csv.writer(csv_file)
-        csv_writer.writerow(['position','company','exp','date','skills','detail']) 
-        # scrape
+
+        # scrape data
         collections = find_jobs(soup)
-        # write down
-        csv_writer.writerows(collections)
-        csv_file.close()
-        print('Exported csv')
-        # wait
+
+        # choice option to export data
+        if args.out:
+            # create csv file
+            csv_file = open(f'./scrape/t2/s{i}.csv','w')
+            csv_writer = csv.writer(csv_file)
+            csv_writer.writerow(['position','company','exp','date','skills','detail']) 
+            
+            # write down
+            csv_writer.writerows(collections)
+            csv_file.close()
+            print('Exported csv')
+        else:
+            table = PrettyTable(fields_name = ['position','company','exp','date','skills','detail'])
+            table.add_rows(collections)
+            print(table)
