@@ -1,4 +1,5 @@
 import os
+import sys
 import booking.constants as const # run from the same directory as run.py
 from selenium import webdriver
 from booking.booking_filtration import BookingFiltration
@@ -10,10 +11,19 @@ create a booking class define some methods that you will be reuse in the project
 inherited from webdriver.Chrome
 '''
 
+# check os-system before choice driver-path
+my_os = sys.platform
+if 'linux' in my_os:
+    driver_path = "./web-driver/chromedriver_linux64/chromedriver"
+elif 'window' in my_os:
+    driver_path = "./web-driver/chromedriver_win32/chromedriver.exe"
+else:
+   print("Unknown current os-system,exiting...")
+   exit()
+
 class Booking(webdriver.Chrome):   
     
-    def __init__(self,driver_path=r"C:/Users/PC/Desktop/crawl_data/selenium/driver",
-                 teardown = False,wait_time = 10):
+    def __init__(self,driver_path=driver_path,teardown = False,wait_time = 10):
         # self.wait_time = wait_time # the value for implicitly wait
         self.teardown = teardown # bit option to quit the driver after executed 
         self.driver_path = driver_path 
