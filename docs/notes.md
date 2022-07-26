@@ -17,3 +17,7 @@ refer to this this link for more detail [selenium](https://github.com/SeleniumHQ
 	* Deprecated opera classes as not w3c compatible (#10379)
 	* Fix SecurityError: Invalid Domain problem (#10653)
 	* Implement convenience methods for scrolling
+
+#### Export csv files
+
+`./analyze/data` is default directory for export data scraped. you should name your export file follow this instruction `target_id`+`page_number`+`.csv`
