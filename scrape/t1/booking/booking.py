@@ -11,12 +11,18 @@ create a booking class define some methods that you will be reuse in the project
 inherited from webdriver.Chrome
 '''
 
+cwd = os.getcwd()
+print(cwd)
+
 # check os-system before choice driver-path
 my_os = sys.platform
 if 'linux' in my_os:
-    driver_path = "./web-driver/chromedriver_linux64/chromedriver"
+    driver_path = cwd + "/web-driver/chromedriver_linux64"
+    os.environ['PATH'] = driver_path # when call this class as object, it will be set in os environment variables
+    # print(driver_path)
 elif 'win' in my_os:
     driver_path = "./web-driver/chromedriver_win32"
+    os.environ['PATH'] = driver_path # when call this class as object, it will be set in os environment variables
 else:
    print("Unknown current os-system,exiting...")
    exit()
@@ -27,7 +33,6 @@ class Booking(webdriver.Chrome):
         # self.wait_time = wait_time # the value for implicitly wait
         self.teardown = teardown # bit option to quit the driver after executed 
         self.driver_path = driver_path 
-        os.environ['PATH'] = driver_path # when call this class as object, it will be set in os environment variables
         # ignore the warning if exists
         options = webdriver.ChromeOptions() # access class webdriver.ChromeOptions, create instance webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches',['enable-logging'])
