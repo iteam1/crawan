@@ -17,3 +17,7 @@ env
 *.tar
 *.rar
 
+# database
+*.sql
+*.db
+
